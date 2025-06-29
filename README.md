@@ -1,4 +1,4 @@
-# Razorpay Payment Integration (Student Project)
+# Razorpay Payment Integration
 
 This project demonstrates Razorpay payment gateway integration for a carpooling app built as part of my final-year engineering project.
 ## Purpose

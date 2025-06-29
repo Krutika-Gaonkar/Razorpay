@@ -6,11 +6,11 @@ const razorpayInstance = new Razorpay({
     key_secret: RAZORPAY_SECRET_KEY
 });
 
-const renderProductPage = async(req,res)=>{
+const renderRidePage = async(req,res)=>{
 
     try {
         
-        res.render('product');
+        res.render('ride');
 
     } catch (error) {
         console.log(error.message);
@@ -56,6 +56,6 @@ const createOrder = async(req,res)=>{
 
 
 module.exports = {
-    renderProductPage,
+    renderRidePage,
     createOrder
 }

@@ -74,6 +74,14 @@ $(document).ready(function(){
 						"notes" : {
 							"description":""+res.description+""
 						},
+						"method": {
+    "card": true,
+    "netbanking": true,
+    "wallet": ["gpay", "phonepe"]
+    // ❌ no UPI, no EMI, no Pay Later
+  },
+
+
 						"theme": {
 							"color": "#2300a3"
 						}
